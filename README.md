@@ -2,8 +2,8 @@
 
 An utility script to iterate over jars in a directory and generates related pom entries.   
 Helpful if you are migrating from ant to Maven. 
-**Note: ** Works with MavenCentral only.
 
+**Note: ** Works with MavenCentral only.
 
 ## How it works??
 1. Script iterates on directory passed as command-line argument. 
@@ -218,3 +218,6 @@ Generated xml file post execution:
 </dependency>
 
 ```
+
+
+**Credits:** This script is an improved version of [Karl Tryggvason](http://stackoverflow.com/users/916371/karl-tryggvason)'s code on StackOverflow [Post](http://stackoverflow.com/a/23766172/639107).  
